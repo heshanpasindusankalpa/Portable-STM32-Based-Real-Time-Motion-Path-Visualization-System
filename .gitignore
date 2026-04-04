@@ -1,19 +1,19 @@
-# STM32 build files
+# Build folders
 Debug/
 Release/
+build/
 
-# Object files
-*.o
-*.d
-*.elf
-*.bin
-*.map
-
-# STM32CubeIDE
+# STM32CubeIDE files
 .settings/
-.metadata/
+.project
+.cproject
 *.launch
 
-# OS junk
+# Temporary files
+*.o
+*.d
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
